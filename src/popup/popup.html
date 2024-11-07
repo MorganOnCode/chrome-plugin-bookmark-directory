@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/src/assets/icon-16.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Export Bookmarks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      min-width: 200px;
+      min-height: 150px;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+
+    h1 {
+      font-size: 18px;
+      color: #333;
+    }
+
+    #exportButton {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #exportButton:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Export Bookmarks For Directories</h1>
+  <button id="exportButton">Step 1: Export to JSON</button>
+  <script src="popup.js"></script>
+</body>
+</html> 
